@@ -1,0 +1,40 @@
+# Site meta data
+[site]
+title = "photo dump"
+author = "Manasi Mehta"
+
+# Site navigation links
+[[site.nav]]
+icon = "assets/icons/home.svg"
+link = "https://m4nasi.github.io/Portfolio/"
+
+[[site.nav]]
+icon = "assets/icons/instagram.svg"
+link = "https://instagram.com/m4nasi"
+
+[[site.nav]]
+icon = "assets/icons/twitter.svg"
+link = "https://twitter.com/m4nasi"
+
+# Setttings for photo size
+[image]
+thumbnailWidth = 640
+originalWidth = 2048
+
+# Layout for grids
+[layout]
+minColumn = 1
+maxColumn = 4
+minWidth = 200
+
+# Photo sections
+
+[[section]]
+title = "berlin"
+text = ""
+slug = "berlin"
+folder = "photos/berlin"
+
+[others]
+folders = [ "assets", "media", "CNAME" ]
+show_foto_footer = true
